@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+     namespace: 必须与dao层的接口名一致
+     id:与方法
+ -->
+<mapper namespace="dao.UserDao">
+      <!-- 插入用户 -->
+      <insert id="insertUser" parameterType="entity.User">
+         
+      </insert>
+</mapper>
